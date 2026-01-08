@@ -4,17 +4,17 @@ main(){
 	
 	//1.(x+y)2
 	
-	float x,y,Ans;
+	int x,y,Ans;
 	
 	printf("Enter X value:- ");
-	scanf("%f",&x);
+	scanf("%d",&x);
 	
 	printf("Enter Y value:- ");
-	scanf("%f",&y);
+	scanf("%d",&y);
 	
-	Ans = (x + y) + (x + y);
+	Ans = (x + y) * (x + y);
 	
-	printf("(x+y) = %f ,",Ans);
+	printf("(x+y) = %d ,",Ans);
 	
 	printf("\n--------------------------\n");
 	
@@ -28,7 +28,7 @@ main(){
 	printf("Enter y value:- ");
 	scanf("%d",&Y);
 	
-	ans = (X - Y) + (X - Y);
+	ans = (X - Y) * (X - Y);
 	
 	printf("(X-Y) = %d ,",ans);
 	
@@ -44,7 +44,7 @@ main(){
 	printf("Enter B value:- ");
 	scanf("%f",&b);
 	
-	Result = (a + b) + (a + b) + (a + b);
+	Result = (a + b) * (a + b) * (a + b);
 	
 	printf("(a+b) = %f ,",Result);
 	

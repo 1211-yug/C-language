@@ -1,6 +1,8 @@
 #include<stdio.h>
 
 main(){
+
+	//Que 3. first and last digit sum.
 	
 	int n,fd,ld,rev;
 	printf("Enter any numbers:- ");
@@ -17,6 +19,5 @@ main(){
 	
 	printf("The sum of the first and last digit:- %d",rev);
 	
-	 
-	
 }
+
